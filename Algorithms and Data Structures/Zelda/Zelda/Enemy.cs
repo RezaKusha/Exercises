@@ -3,41 +3,41 @@ using System.Collections.Specialized;
 
 namespace Zelda
 {
-    class Enemy
+    public class Enemy
     {
         public Enemy()
         {
         }
     }
 
-    class Boss : Enemy
+    public class Boss : Enemy
     {
         public Boss()
         {
         }
     }
 
-    class MiniBoss : Enemy
+    public class MiniBoss : Enemy
     {
         public MiniBoss()
         {
         }
     }
 
-    class Guardian : Enemy
+    public class Guardian : Enemy
     {
         public Guardian()
         {
         }
     }
 
-    class HostileAnimal : Enemy
+    public class HostileAnimal : Enemy
     {
         public HostileAnimal() 
         {
         }
     }
-    class NormalEnemy : Enemy
+    public class NormalEnemy : Enemy
     {
         public int Size { get; set; }
         public string Name { get; set; }
@@ -66,7 +66,7 @@ namespace Zelda
         }
     }
 
-    class Chuchu : NormalEnemy
+    public class Chuchu : NormalEnemy
     {
         public Chuchu(int size, string name, int hp, int reward, string ability, string skin, int attackPower,
             int speed, int jumpForce, string attackMode) : base(size, name, hp, reward, ability, skin, attackPower, speed, jumpForce, attackMode)
@@ -74,7 +74,7 @@ namespace Zelda
         }
     }
 
-    class Kesse : NormalEnemy
+    public class Kesse : NormalEnemy
     {
         public Kesse(int size, string name, int hp, int reward, string ability, string skin, int attackPower,
             int speed, int jumpForce, string attackMode) : base(size, name, hp, reward, ability, skin, attackPower, speed, jumpForce, attackMode)
@@ -82,7 +82,7 @@ namespace Zelda
         }
     }
 
-    class Octorok : NormalEnemy
+    public class Octorok : NormalEnemy
     {
         public Octorok(int size, string name, int hp, int reward, string ability, string skin, int attackPower,
             int speed, int jumpForce, string attackMode) : base(size, name, hp, reward, ability, skin, attackPower, speed, jumpForce, attackMode)
@@ -90,7 +90,7 @@ namespace Zelda
         }
     }
     
-    class Wizzrobe : NormalEnemy
+    public class Wizzrobe : NormalEnemy
     {
         public Wizzrobe(int size, string name, int hp, int reward, string ability, string skin, int attackPower,
             int speed, int jumpForce, string attackMode) : base(size, name, hp, reward, ability, skin, attackPower, speed, jumpForce, attackMode)
@@ -98,7 +98,7 @@ namespace Zelda
         }
     }
     
-    class Pebblit : NormalEnemy
+    public class Pebblit : NormalEnemy
     {
         public Pebblit(int size, string name, int hp, int reward, string ability, string skin, int attackPower,
             int speed, int jumpForce, string attackMode) : base(size, name, hp, reward, ability, skin, attackPower, speed, jumpForce, attackMode)
@@ -106,7 +106,7 @@ namespace Zelda
         }
     }
     
-    class Bokoblin : NormalEnemy
+    public class Bokoblin : NormalEnemy
     {
         public Bokoblin(int size, string name, int hp, int reward, string ability, string skin, int attackPower,
             int speed, int jumpForce, string attackMode) : base(size, name, hp, reward, ability, skin, attackPower, speed, jumpForce, attackMode)
@@ -114,7 +114,7 @@ namespace Zelda
         }
     }
     
-    class Moblin : NormalEnemy
+    public class Moblin : NormalEnemy
     {
         public Moblin(int size, string name, int hp, int reward, string ability, string skin, int attackPower,
             int speed, int jumpForce, string attackMode) : base(size, name, hp, reward, ability, skin, attackPower, speed, jumpForce, attackMode)
@@ -122,7 +122,7 @@ namespace Zelda
         }
     }
     
-    class Lizzalfos : NormalEnemy
+    public class Lizzalfos : NormalEnemy
     {
         public Lizzalfos(int size, string name, int hp, int reward, string ability, string skin, int attackPower,
             int speed, int jumpForce, string attackMode) : base(size, name, hp, reward, ability, skin, attackPower, speed, jumpForce, attackMode)
@@ -130,7 +130,7 @@ namespace Zelda
         }
     }
     
-    class Lynel : NormalEnemy
+    public class Lynel : NormalEnemy
     {
         public Lynel(int size, string name, int hp, int reward, string ability, string skin, int attackPower,
             int speed, int jumpForce, string attackMode) : base(size, name, hp, reward, ability, skin, attackPower, speed, jumpForce, attackMode)
@@ -138,7 +138,7 @@ namespace Zelda
         }
     }
     
-    class YigaBladeMaster : NormalEnemy
+    public class YigaBladeMaster : NormalEnemy
     {
         public YigaBladeMaster(int size, string name, int hp, int reward, string ability, string skin, int attackPower,
             int speed, int jumpForce, string attackMode) : base(size, name, hp, reward, ability, skin, attackPower, speed, jumpForce, attackMode)
@@ -146,7 +146,7 @@ namespace Zelda
         }
     }
     
-    class YigaFootSoldier : NormalEnemy
+    public class YigaFootSoldier : NormalEnemy
     {
         public YigaFootSoldier(int size, string name, int hp, int reward, string ability, string skin, int attackPower,
             int speed, int jumpForce, string attackMode) : base(size, name, hp, reward, ability, skin, attackPower, speed, jumpForce, attackMode)
